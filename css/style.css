@@ -4,6 +4,8 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 .hidden {
@@ -31,9 +33,11 @@ body {
 
 #weather-div {
   text-align: right;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 #author,
 #quote {
-  color: white;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
 }
