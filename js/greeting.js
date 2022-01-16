@@ -12,7 +12,7 @@ function onLoginFormSubmit(event) {
 
 function printGreeting(userName) {
   userNameText.classList.remove("hidden");
-  userNameText.innerText = `Hello ${userName}`;
+  userNameText.innerText = `Hello, ${userName}.`;
 }
 const userName = localStorage.getItem("username");
 if(userName){
