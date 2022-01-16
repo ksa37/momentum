@@ -32,3 +32,8 @@ body {
 #weather-div {
   text-align: right;
 }
+
+#author,
+#quote {
+  color: white;
+}
