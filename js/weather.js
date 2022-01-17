@@ -23,8 +23,8 @@ function getWeather(lat, lon){
   .then((data)=>{
     console.log(lat, lon)
     city.innerText = data.name;
-    weather.innerText = data.weather[0].main;
     degree.innerText = Math.round(data.main.temp) + "degree";
+    weather.src = `http://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
   })
 }
 
