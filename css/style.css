@@ -41,3 +41,7 @@ body {
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
 }
+
+#todo-div {
+  text-align: center;
+}
